@@ -1,0 +1,74 @@
+/* Css reset */
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+/* css veriables */
+/* :root{
+    --navbar-haight:589px;
+} */
+/* Navination Bar*/
+#navbar{
+    display: flex;
+    align-items: center;
+    position:fixed;
+    top: 0px;
+    /* position: sticky; */
+
+}
+ /*  Navigation bar:logo and img */
+/* #logo{
+    margin: 10px 34px;
+} */
+/* #logo img{
+    height:59px;
+    margin: 3px 6px;
+    border-radius: 10px; */
+
+
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.1;
+
+}
+#navbar ul li{
+   
+   list-style: none;
+    text-decoration: none;
+    font-size: 1.3rem;
+
+}
+#navbar ul li  a{
+    padding:3px 15px;
+    text-decoration: none;
+    display: block;
+    border-radius: 20px;
+    color: rgb(15, 15, 15);
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+ul li:hover{
+    color: white;
+    background-color: black;
+}
+/* home section */
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    /* margin-left: 20px; */
+    margin-left: 500px;
+    margin-right: 500px; 
+    padding: 10px;
+}
+textarea.form-control {
+    height: 320px;
+    background-color: rgb(227, 236, 236);
+}
+/* textarea .placeholder{
+    text-align: center;
+    justify-content: center;
+    align-items: center;color: black;
+} */

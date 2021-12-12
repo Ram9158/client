@@ -1,0 +1,43 @@
+/* #contact::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    z-index: -1;
+    opacity: 0.6;
+    background: url(../public/2020.jpg)no-repeat center center/cover;
+} */
+.Heading{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#h-primary{
+    font-size: 2.8rem;
+    padding-top: 25px;
+    padding: 50px;
+    font-family: 'Baloo Bhai 2', cursive;
+    
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.4rem;
+    border-radius: 9px;
+    font-size: 0.9rem;
+}
+#contact-box form{
+    width: 30%;
+}
+#contact-box label{
+    font-size: 1.1rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
